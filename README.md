@@ -1,34 +1,12 @@
 # online-shop-laravel-vue
 latihan membuat ecommerce dengan framework laravel dan vue
-Setelah selesai menginstal, salin file .env.example ke .env
-pertama download atau clone project 
-kedua masuk ke direktori project
-ketikan:
-$ composer install
+Sama seperti proyek Laravel lainnya. Pada dasarnya di sini adalah bagaimana Anda menggunakannya untuk diri Anda sendiri. (belum selesai)
 
-$ cp .env.example .env
-
-Hasilkan kunci aplikasi
-
-$ php artisan key: generate
-
-Tambahkan kredensial basis data Anda ke bidang env yang diperlukan
-
-Migrasikan aplikasi
-
-$ php artisan dimigrasi
-
-Instal paspor laravel
-
-$ php artisan passport: install
-
-Database Benih
-
-$ php artisan db: seed
-
-Pasang modul simpul
-
-instal $ npm
-
-Jalankan aplikasi
-$ php artisan serve
+Clone the repo git clone https://github.com/Hujjat/laravStart.git
+cd to project folder.
+Run composer install
+Save as the .env.example to .env and set your database information
+Run php artisan key:generate to generate the app key
+Run npm install
+Run php artisan migrate
+Done !!! Enjoy Customizing and building awesome app
